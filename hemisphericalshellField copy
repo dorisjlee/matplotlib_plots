@@ -1,0 +1,7 @@
+import matplotlib.pyplot as plt
+from pylab import *
+import numpy as np
+R=100
+z=arange (-500.,500.,1)
+E_z=(1/sqrt(1+z^2/R))-1
+graph = plt.plot (E_z,z)
